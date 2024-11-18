@@ -5,9 +5,23 @@
              Title="StackLayoutPage">
     
     <StackLayout Margin="20,35,20,25">
+        
         <Label Text="The StackLayout has its Margin property set, to control the rendering position of the StackLayout." />
         <Label Text="The Padding property can be set to specify the distance between the StackLayout and its children." />
         <Label Text="The Spacing property can be set to specify the distance between views in the StackLayout." />
+
+        <Button Grid.Column="2" Grid.ColumnSpan="2"
+        Text="Pasa al flex perri"
+        TextColor="White"
+        BackgroundColor="Green"
+        CornerRadius="30"
+        HorizontalOptions="Center"
+        VerticalOptions="End"
+        Clicked="OnClickedButtonFlex"
+        />
+
     </StackLayout>
     
+    
+
 </ContentPage>

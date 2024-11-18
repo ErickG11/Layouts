@@ -11,22 +11,19 @@
             <BoxView Grid.Row="0" Grid.Column="1" Color="blue"/>
             <BoxView Grid.Row="1" Grid.Column="0" Color="green"/>
             <BoxView Grid.Row="1" Grid.Column="1" Color="orange"/>
-            
+
         </Grid>
-
         
-
         <Button Grid.Column="2" Grid.ColumnSpan="2"
-        Text="Pasa al stack pa"
-        TextColor="Black"
-        BackgroundColor="White"
-        CornerRadius="30"
-        HorizontalOptions="Center"
-        VerticalOptions="Center"
-        Clicked="OnClickedButton"
-        />  
-
-          
+            Text="Pasa al stack pa"
+            TextColor="Black"
+            BackgroundColor="White"
+            CornerRadius="30"
+            HorizontalOptions="End"
+            VerticalOptions="End"
+            Clicked="OnClickedButton"
+            />
+ 
     </Grid>
 
 </ContentPage>
