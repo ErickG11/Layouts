@@ -58,6 +58,7 @@
 
 	<ItemGroup>
 	  <None Remove="Resources\Images\marte.jpg" />
+	  <None Remove="Resources\Images\resolviendo.jfif" />
 	  <None Remove="Resources\Images\saturno.jpg" />
 	  <None Remove="Resources\Images\tierra.jpg" />
 	</ItemGroup>

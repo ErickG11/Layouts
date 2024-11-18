@@ -4,21 +4,16 @@
              x:Class="Layouts.AbsoluteLayoutPage"
              Title="AbsoluteLayoutPage">
 
-    
-        
-            <AbsoluteLayout>
+    <ScrollView Margin="20">
 
-            <ScrollView Margin="20">
-
-            <Label Text="UN 10 PEGA FULL PROFE"/>
-            
+        <AbsoluteLayout>
 
 
 
+            <Image Source="resolviendo.jfif" WidthRequest="500" HeightRequest="500" VerticalOptions="Center" HorizontalOptions="Center"/>
 
-        </ScrollView>
 
-        <Button
+            <Button
             
             x:Name="boton1"
             Text="Ir a pagina GRID PA"
@@ -27,11 +22,11 @@
             HorizontalOptions="End"
             VerticalOptions="End"    
             Clicked="boton1_clicked"/>
-                
 
 
-            </AbsoluteLayout>
-               
-    
-    
+
+    </AbsoluteLayout>
+
+    </ScrollView>
+
 </ContentPage>
