@@ -4,6 +4,7 @@
              x:Class="Layouts.FlexLayoutPage"
              Title="FlexLayoutPage">
 
+    <ScrollView Margin="20">
     <FlexLayout Direction="Column" JustifyContent="SpaceBetween">
 
         <Frame HeightRequest="150" Padding="8" BorderColor="DarkGray" CornerRadius="25">
@@ -38,6 +39,18 @@
                 <Label Text="Saturno" VerticalOptions="Center"/>
             </FlexLayout>
         </Frame>
-        
+
+        <Frame HeightRequest="150" BorderColor="DarkGray" CornerRadius="25">
+            <FlexLayout Direction="Row" AlignItems="Center" >
+                <Image Source="venus.jfif" WidthRequest="100" HeightRequest="100" VerticalOptions="Center" HorizontalOptions="Start">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnImageTapped" />
+                    </Image.GestureRecognizers>
+                </Image>
+                <Label Text="venus" VerticalOptions="Center"/>
+            </FlexLayout>
+        </Frame>
+
     </FlexLayout>
+    </ScrollView>
 </ContentPage>
