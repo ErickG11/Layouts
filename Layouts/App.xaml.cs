@@ -6,7 +6,7 @@
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new GridLayoutPage());
+            MainPage = new NavigationPage(new AbsoluteLayoutPage());
         }
     }
 }

@@ -6,4 +6,10 @@ public partial class AbsoluteLayoutPage : ContentPage
 	{
 		InitializeComponent();
 	}
+
+	private async void boton1_clicked (object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new GridLayoutPage());
+}
+
 }
